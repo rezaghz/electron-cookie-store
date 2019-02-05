@@ -1,0 +1,28 @@
+{
+  "name": "electron-cookie-save",
+  "version": "1.0.0",
+  "description": "Electron Cookie Store ; Easey Managment Cookie in Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaghz/electron-cookie-store.git"
+  },
+  "keywords": [
+    "cookies",
+    "cookie",
+    "electron",
+    "electron-cookie"
+  ],
+  "author": "Reza Ghasemzadeh <rezaghasemzadeh1@gmail.com> (http://rezaghz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rezaghz/electron-cookie-store/issues"
+  },
+  "homepage": "https://github.com/rezaghz/electron-cookie-store#readme",
+  "devDependencies": {
+    "electron": "^4.0.4"
+  }
+}
