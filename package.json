@@ -1,6 +1,6 @@
 {
   "name": "electron-cookie-save",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Electron Cookie Store ; Easy Management Cookie in Electron",
   "main": "index.js",
   "repository": {
