@@ -50,9 +50,8 @@ let Cookie = (function () {
         set : (url,name=null,value=null,expirationDay=null,domain=null,path=null,secure=null,httpOnly=null)=>{
             let currentWindow = remote.getCurrentWindow();
             if (expirationDay !==null){
-                expirationDay = expirationDay*24*60*60;
+                expirationDay = new Date().getTime() + expirationDay*24*60*60;
             }
-
             currentWindow.webContents.session.cookies.set({
                 url : url,
                 name : name,
