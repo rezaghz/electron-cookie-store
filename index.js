@@ -3,12 +3,10 @@ const {remote, Cookies} = require('electron');
 let Cookie = (function () {
     return {
        // return All Cookie
-        all : (url)=>{
+        all : ()=>{
             return new Promise(function (resolve, reject) {
                 let currentWindow = remote.getCurrentWindow();
-                currentWindow.webContents.session.cookies.get({
-                    url: url,
-                }, function (error, cookies) {
+                currentWindow.webContents.session.cookies.get({}, function (error, cookies) {
                     if (error){
                         reject(error);
                     }
