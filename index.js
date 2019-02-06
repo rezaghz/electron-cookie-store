@@ -1,6 +1,6 @@
 const {remote, Cookies} = require('electron');
 
-module.exports.Cookie = (function () {
+let Cookie = (function () {
     return {
        // return All Cookie
         all : (url)=>{
@@ -75,7 +75,10 @@ module.exports.Cookie = (function () {
             });
         }
     }
-});
+})();
+
+module.exports = Cookie;
+
 
 
 

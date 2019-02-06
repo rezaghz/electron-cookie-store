@@ -1,11 +1,8 @@
 {
   "name": "electron-cookie-save",
   "version": "1.0.0",
-  "description": "Electron Cookie Store ; Easey Managment Cookie in Electron",
+  "description": "Electron Cookie Store ; Easy Management Cookie in Electron",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rezaghz/electron-cookie-store.git"
