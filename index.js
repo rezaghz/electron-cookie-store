@@ -67,8 +67,15 @@ module.exports.Cookie = (function () {
                     return error;
                 }
             });
+        },
+        delete : (url,name)=>{
+            let currentWindow = remote.getCurrentWindow();
+            currentWindow.webContents.session.cookies.remove(url,name,()=>{
+
+            });
         }
     }
 });
+
 
 
